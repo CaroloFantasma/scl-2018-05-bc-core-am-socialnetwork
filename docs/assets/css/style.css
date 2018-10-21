@@ -1,0 +1,566 @@
+.container-fluid {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  visibility: hidden;
+}
+
+.caja_registro {
+  background-color: #FAFAFA;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+  -webkit-box-shadow: 10px 10px 15px -9px rgba(79, 78, 79, 0.68);
+  -moz-box-shadow: 10px 10px 15px -9px rgba(79, 78, 79, 0.68);
+  box-shadow: 10px 10px 15px -9px rgba(79, 78, 79, 0.68);
+  padding-top: 12%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 30%;
+}
+
+#screen1 {
+  display: block;
+}
+
+#brandName {
+  text-align: center;
+  font-size: 35px;
+  border-left: 30%;
+  font-family: 'Chewy', cursive;
+  margin-top: 3%;
+  color: #000000;
+}
+
+#logo {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.pets {
+  margin-bottom: 5%;
+  width: 60%;
+}
+
+.btn_ingresar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#btn_facebook {
+  background-color: #5176B8;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10%;
+  width: 100%;
+  font-size: 12px;
+}
+
+#btn_google {
+  background-color: #D63E2F;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5%;
+  width: 100%;
+  font-size: 12px;
+}
+
+.btn_registrate {
+  background-color: #bcebeb00;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no_tienes_cuenta {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: black;
+}
+
+#screen2 {
+  display: none;
+}
+
+.imgRegister {
+  width: 40%;
+}
+
+#modal_title {
+  font-size: 14px bold;
+  text-align: center;
+  color: orangered;
+}
+
+#responsability {
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+#box_responsability {
+  text-align: center;
+  width: 100%;
+}
+
+#responsability_modal {
+  margin-top: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn_registrar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* pantalla 3*/
+#brand {
+  width: 40%;
+  right: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  height: 50%;
+  width: 70vw;
+  transition: 0.5s ease-out;
+  padding-top: 5%;
+}
+
+#menuColor {
+  background-color: #ED6F00;
+  height: 7%;
+  z-index: 2;
+  position: fixed;
+}
+
+.iconMenu {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+#closingX {
+  color: black;
+  cursor: pointer;
+}
+
+#screen3 {
+  padding: 0;
+  display: none;
+  z-index: 1;
+}
+
+nav {
+  z-index: 1;
+}
+
+.closingMenu {
+  left: -90vw;
+  background-color: #ED6F00;
+}
+
+.menu_open {
+  left: 0;
+}
+
+.close_button {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  right: 10px;
+}
+
+.menu_content {
+  padding: 10px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.formPost {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 0%;
+}
+
+#usuario {
+  padding-top: 15%;
+}
+
+#divContainer {
+  border: solid grey 1px;
+  width: 70%;
+  margin-top: 25px;
+  padding-top: 10px;
+  display: block;
+  height: 50%;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#pawIcon {
+  margin-left: 70%;
+}
+
+#pawIcon:hover {
+  color: rgb(37, 48, 192);
+}
+
+.userName {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+#userName {
+  margin-bottom: 2%;
+  color: black;
+}
+
+#bienvenido {
+  color:black;
+}
+
+#btnImg {
+  width: 70%;
+  background-color: #444343;
+  color: #FAFAFA;
+  border: #444343;
+  z-index: 1;
+}
+
+.btnSubirImg {
+  text-align: center;
+}
+
+.btnSubirPublicacion {
+  text-align: center;
+}
+
+#messageArea {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+#btnPost {
+  width: 70%;
+  background-color: #444343;
+  color: #FAFAFA;
+  border: #444343;
+}
+
+#screenAlimentacion {
+  display: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#screenCuidados {
+  display: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#screenDirectorio {
+  display: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#screenAdopciones {
+  display: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#divContainer {
+  border: solid grey 1px;
+  width: 90%;
+  margin-top: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 2%;
+}
+
+#name {
+  display: block;
+  text-align: right;
+}
+
+.list-group {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.food {
+  font-size: 15px;
+  text-align: justify;
+  padding: 5%;
+  color: black;
+}
+
+.foodTitle {
+  margin-top: 7%;
+  font-size: 20px;
+  color:  black;
+}
+
+.adoptionCards {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.card-text-adoption {
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.file-input {
+  visibility: hidden;
+  width: 0;
+  position: relative;
+}
+.file-input::before {
+  content: 'SUBIR FOTO';
+  display: inline-block;
+  background-color: #444343;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 20px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  visibility: visible;
+  position: absolute;
+  margin-left: 45px;
+}
+
+#botones {
+  margin-bottom: 7%;
+}
+
+
+
+/* cierre css pantalla 3*/
+@media(min-width: 768px) {
+  .menu {
+    width: 20vw;
+    padding-bottom: 23%;
+    /*El menú va a tomar este ancho con pantallas de 768px hacia arriba*/
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+  #menuColor {
+    width: 100%;
+  }
+
+  .menu_closed {
+    left: -20vw;
+  }
+
+  #btnImg {
+    margin-left: 40%;
+  }
+
+  #messageArea {
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+  }
+
+  #btnImg {
+    margin-left: 35%;
+    margin-right: 10%;
+  }
+
+  #brand {
+    width: 20%;
+  }
+
+  #dogsAndCats {
+    width: 100%;
+    margin-bottom: 0%;
+    position: relative;
+    bottom: 0%;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .userName {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+  .caja_registro {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+    padding: 3%;
+  }
+
+  #brandName {
+    font-size: 60px;
+    display: inline-block;
+    margin-left: 20%;
+  }
+
+  #logo {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .pets {
+    margin-bottom: 2%;
+    width: 60%;
+  }
+
+  .btn_ingresar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #btn_facebook {
+    background-color: #5176B8;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10%;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #btn_google {
+    background-color: #D63E2F;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .btn_registrate {
+    background-color: #bcebeb;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .no_tienes_cuenta {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  #screen2 {
+    display: none;
+  }
+
+  #screen1 {
+    display: block;
+  }
+
+  #modal_title {
+    font-size: 14px bold;
+    text-align: center;
+    color: orangered;
+  }
+
+  #responsability {
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  #box_responsability {
+    text-align: center;
+    width: 100%;
+  }
+
+  #responsability_modal {
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .btn_registrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #divContainer {
+    width: 45%;
+  }
+
+  #pawIcon {
+    margin-left: 68%;
+  }
+
+  .adoptionCards {
+    width: 40%;
+  }
+
+  .adoptionCards {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  #photoFileSelector {
+    margin-left: 70%;
+    width: 20%;
+  }
+
+  #btnPost{
+    width: 20% ;
+  }
+}
