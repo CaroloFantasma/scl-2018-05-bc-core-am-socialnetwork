@@ -2,6 +2,8 @@
 
 # interPets
 
+![interpets](https://user-images.githubusercontent.com/38013094/47367288-c8239580-d6b5-11e8-8bd3-0c188a5dfe12.jpg)
+
 Le damos la bienvenida a interPets, red social creada con la finalidad de reunir a dueños de perros y gatos para que puedan interactuar entre ellos, compartir datos, recomendaciones y opiniones. Además, encontrarás noticias y tips que les serán de mucha ayuda en el cuidado y bienestar de sus mascotas.
 
 # Definición del producto
