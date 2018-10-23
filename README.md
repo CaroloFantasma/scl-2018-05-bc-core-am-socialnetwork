@@ -1,5 +1,3 @@
-# Proyecto red social
-
 # interPets
 
 ![interpets](https://user-images.githubusercontent.com/38013094/47367288-c8239580-d6b5-11e8-8bd3-0c188a5dfe12.jpg)
@@ -73,3 +71,6 @@ Para ver el prototipo de diseño de alta fidelidad, por favor visite el siguient
 Asímismo, las entrevistas las puede encontrar acá:
 https://www.dropbox.com/s/pevey9scwg04ld7/Entrevista%20Daniela.3gp?dl=0
 https://www.dropbox.com/s/k0ayk5uc77wy4zm/Entrevista%20Viviana.3gp?dl=0
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
